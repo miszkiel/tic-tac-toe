@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>TIC-TAC-TOE</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="game-container"></div>
+    <div>
+        &times;:<input type = "text" id = "x-user">
+    </div>
+    <div>
+        &cir;: <input type = "text" id = "o-user">
+    </div>
+    <button id="start-game" disabled="disabled">Start Game</button>
+ <script src="script.js"></script>   
+</body>
+</html>
+
+<!--
+    styl w nagłówku dodajemy
+    skrypt dodajemy pod koniec body bo on modyfikuje DOM, wtedy ma się wczytać.
+    
+    w body dodajemy grę za pomocą game-container
+-->
